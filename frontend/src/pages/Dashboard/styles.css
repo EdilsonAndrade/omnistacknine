@@ -1,0 +1,31 @@
+ul.spot-list{
+    width:100%;
+    list-style: none;
+    display: grid; /*para criar uma coluna ao lado da outra*/
+    grid-template-columns: 1fr 1fr; /*unidade medida q o grid utiliza para ter 2 espaços iguais um ao lado do outro*/
+    grid-gap: 20px; /*para dar ume spaço entre elas*/
+    margin-bottom: 30px;
+}
+
+ul.spot-list li{
+    display: flex;
+    flex-direction: column;
+}
+
+ul.spot-list li header{
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+ul.spot-list li strong{
+    margin-top: 10px;
+    font-size: 24px;
+    color:#444
+}
+
+ul.spot-list li span{
+    font-size: 15px;
+    color:#999;
+}
