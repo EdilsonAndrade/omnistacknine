@@ -6,11 +6,15 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-iaon4.mongodb.net/omnistack09?retryWrites=true&w=majority', {
+// mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-iaon4.mongodb.net/omnistack09?retryWrites=true&w=majority', {
+//     useNewUrlParser:true,
+//     useUnifiedTopology:true
+// });
+
+mongoose.connect('mongodb://127.0.0.1:27017/omnistrack?compressors=zlib&gssapiServiceName=mongodb', {
     useNewUrlParser:true,
     useUnifiedTopology:true
 });
-
 
 //req.query = get the params from query
 //req.params = acessar route params para (update, delete)
