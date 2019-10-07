@@ -4,7 +4,7 @@
 
 # AirCnC - Coffee and Code
 
-## This is a full stack application to book spots inside Companies that has it available.
+## This is a full stack application to book spots inside compnies that has users preferences program languages available.
 
 #### Technologies used for thist project:
 * NodeJs
@@ -12,5 +12,12 @@
 * React-Native
 * MongoDb (atlas and local)
 
+
+###Hooks used:
+*useMemo
+*useEffects
+
+###Advanced features
+*Socket io
 
   
