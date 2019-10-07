@@ -10,6 +10,11 @@ module.exports = {
         const booking = await Booking.create({date, user: user_id, spot: spot_id})
 
         await booking.populate('user').populate('spot').execPopulate();
+        const ownerScoket = req.connectedUsers[booking.spot.user];
+
+        if(ownerScoket){
+            req.io.to(ownerScoket).emit('booking_request', booking);
+        }
 
         return res.json(booking);
     }
