@@ -13,11 +13,11 @@
 * MongoDb (atlas and local)
 
 
-###Hooks used:
-*useMemo
-*useEffects
+#### Hooks used:
+* useMemo
+* useEffects
 
-###Advanced features
-*Socket io
+### Advanced features
+*Socket-io
 
   
