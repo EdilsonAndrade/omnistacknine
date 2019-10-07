@@ -1,0 +1,9 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 8500,
+  "expoServerNgrokUrl": "https://wm-pnb.anonymous.mobile.exp.direct",
+  "packagerNgrokUrl": "https://packager.wm-pnb.anonymous.mobile.exp.direct",
+  "ngrokPid": 9204
+}
